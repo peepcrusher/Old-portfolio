@@ -403,3 +403,7 @@ a:hover, a:focus, a:active {
 .custom-btn-bg{
   background-color:rgba(174, 177, 182);
 }
+
+.shadow{
+  text-shadow: 1px 1px #000000;
+}
