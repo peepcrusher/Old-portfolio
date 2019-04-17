@@ -91,7 +91,7 @@ h6 {
   display: table;
   width: 100%;
   height: auto;
-  padding-top: 8rem;
+  padding-top: 4rem;
   padding-bottom: 8rem;
   background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0.1)), to(rgba(255, 255, 255, 0.1))), url("../img/bg-masthead.jpg");
   background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/bg-masthead.jpg");
@@ -254,7 +254,7 @@ h6 {
 }
 
 .portfolio-item .caption .caption-content {
- background: grey;
+ background: rgb(105, 100, 100);
  opacity: .5;
   margin: auto 2rem 2rem;
 }
@@ -375,4 +375,31 @@ a:hover, a:focus, a:active {
 
 .text-secondary {
   color: #ecb807 !important;
+}
+
+
+.icons{
+  height: 128px;
+  width: 128px;
+}
+
+.project{
+  height:400px;
+  width:560px;
+}
+
+.aboutMe{
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/marcus-lofvenberg-512243-unsplash-edit.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 15px;
+}
+
+.custom-bg{
+  background-color:rgba(174, 177, 182, 0.521);
+}
+
+.custom-btn-bg{
+  background-color:rgba(174, 177, 182);
 }

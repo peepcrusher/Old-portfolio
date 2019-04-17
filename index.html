@@ -15,11 +15,13 @@
 
   <!-- Custom Fonts -->
   <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
-  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic"
+    rel="stylesheet" type="text/css">
   <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
 
   <!-- Custom CSS -->
-  <link href="css/stylish-portfolio.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+  <link href="css/stylish-portfolio.css" rel="stylesheet">
 
 </head>
 
@@ -51,24 +53,29 @@
 
   <!-- Header -->
   <header class="masthead d-flex">
-    <div class="container text-center my-auto">
-      <h1 class="mb-1">Sam Thompson</h1>
-      <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Find Out More</a>
+    <div class="container text-center mx-auto">
+      <h1 class="name text-white mb-1 animated fadeIn delay-1s">Sam Thompson</h1>
+      <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+      <a class="btn btn-primary btn-xl js-scroll-trigger animated fadeIn delay-1s" href="#about">Discover</a>
     </div>
     <div class="overlay"></div>
   </header>
 
   <!-- About -->
-  <section class="content-section bg-light" id="about">
+  <section class="aboutMe content-section" id="about">
     <div class="container text-center">
       <div class="row">
         <div class="col-lg-10 mx-auto">
-          <h2>About me</h2>
-          <div class="content-center border-1">
-          <img src="img/sam1.jpg">
-          </div>
-          <p class="lead mb-5">I've been living in SF for about seven years and been working in the parks and rec field for the past four. I decided to leave the Parks and Rec field because there simply aren't enough jobs that aren't seasonal and I'm looking for something permenant</p>
-          <a class="btn btn-dark btn-xl js-scroll-trigger" href="#services">What We Offer</a>
+          <h2 class="text-light">About me</h2>
+
+          <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+          <p class="custom-bg text-white rounded lead mb-5">I am three weeks away from completing a full stack web
+            development bootcamp at the Berkeley extension program.
+            Throughout this program I have learned an abundant amount of applicable skills and technologies that I can
+            apply to a real job.
+            The most important skill though was learning on my own.
+          </p>
+          <a class=" custom-btn-bg shadow-lg btn btn-xl js-scroll-trigger" href="#services">What I Offer</a>
         </div>
       </div>
     </div>
@@ -82,44 +89,95 @@
       </div>
       <div class="row">
         <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
-          
-            <img src="img/HTML-icon.png" alt="HTML">
-          
+
+          <img src="img/HTML-icon.png" alt="HTML">
+
           <h4>
             <strong>HTML</strong>
           </h4>
           <p class="text-faded mb-0"></p>
         </div>
         <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
-          
-            <img src="img/CSS-icon.png" alt="CSS">
-         
+
+          <img src="img/CSS-icon.png" alt="CSS">
+
           <h4>
             <strong>CSS</strong>
           </h4>
           <p class="text-faded mb-0"></p>
         </div>
         <div class="col-lg-3 col-md-6 mb-5 mb-md-0">
-          
-            <img src="img/JS-icon.png" alt="Javascript">
-          
+
+          <img src="img/JS-icon.png" alt="Javascript">
+
           <h4>
             <strong>Javascript</strong>
           </h4>
           <p class="text-faded mb-0">
-            
-            </p>
+
+          </p>
         </div>
         <div class="col-lg-3 col-md-6">
-          
-            <img src="img/firebase-icon.png" alt="Firebase">
-          
+
+          <img src="img/firebase-icon.png" alt="Firebase">
+
           <h4>
             <strong>Firebase</strong>
           </h4>
           <p class="text-faded mb-0"></p>
         </div>
       </div>
+      <br>
+      <div class="row">
+        <div class="col-lg-3 col-md-6 mb-5 mb-md-0">
+
+          <img class="icons" src="img/mysql.png" alt="mysql">
+
+          <h4>
+            <strong>MYSQL</strong>
+          </h4>
+          <p class="text-faded mb-0">
+
+          </p>
+        </div>
+
+        <div class="col-lg-3 col-md-6 mb-5 mb-md-0">
+
+          <img class="icons" src="img/nodeLogo.png" alt="Node">
+
+          <h4>
+            <strong>Node</strong>
+          </h4>
+          <p class="text-faded mb-0">
+
+          </p>
+        </div>
+
+        <div class="col-lg-3 col-md-6 mb-5 mb-md-0">
+
+          <img class="icons" src="img/expressLogo.png" alt="Express">
+
+          <h4>
+            <strong>Express</strong>
+          </h4>
+          <p class="text-faded mb-0">
+
+          </p>
+        </div>
+        <div class="col-lg-3 col-md-6 mb-5 mb-md-0">
+
+          <img class="icons" src="img/mongodb-logo.png" alt="Mongodb">
+
+          <h4>
+            <strong>Mongodb</strong>
+          </h4>
+          <p class="text-faded mb-0">
+
+          </p>
+        </div>
+      </div>
+      <br><br>
+      <a class=" custom-btn-bg shadow-lg btn btn-xl js-scroll-trigger" href="#portfolio">Recent Projects</a>
     </div>
   </section>
 
@@ -138,44 +196,47 @@
             <span class="caption">
               <span class="caption-content">
                 <h2 class="text-light">Kender</h2>
-                <p class="mb-0 text-light">A weekend planner that will give you a playlist and events based around the weather</p>
+                <p class="mb-0 text-light">A weekend planner that will give you a playlist and events based around the
+                  weather</p>
               </span>
             </span>
-            <img class="img-fluid" src="img/KenderLogo (1).png" alt="Kender, Plan less, Do more">
+            <img class="img-fluid project" src="img/KenderLogo (1).png" alt="Kender, Plan less, Do more">
           </a>
         </div>
         <div class="col-lg-6">
-            <a class="portfolio-item" href="https://peepcrusher.github.io/giphy-homework/">
-              <span class="caption">
-                <span class="caption-content">
-                  <h2 class= "text-light">Cartoon Gif generator</h2>
-                  <p class="mb-0 text-light">A javascript application where you can add buttons, then search the GIPHY API to get back gif's that play and pause on click</p>
-                </span>
+          <a class="portfolio-item" href="https://onemedhealth.herokuapp.com/">
+            <span class="caption">
+              <span class="caption-content">
+                <h2 class="text-light">One Stop Health</h2>
+                <p class="mb-0 text-light">A full stack application where users can create accounts, and store all of their medical information, and find doctors in their area.</p>
               </span>
-              <img class="img-fluid" src="img/bg-giphy.jpg" alt="Gif Generator">
-            </a>
-         
+            </span>
+            <img class="img-fluid project" src="img/OneStopHealth.png" alt="One Stop Health">
+          </a>
+
         </div>
         <div class="col-lg-6">
-            <a class="portfolio-item" href="https://sleepy-headland-46231.herokuapp.com/">
-              <span class="caption">
-                <span class="caption-content">
-                  <h2 class="text-light">Friend Finder</h2>
-                  <p class="mb-0 text-light">This is an application that will match you with the closest person in our database.</p>
-                </span>
+          <a class="portfolio-item" href="https://sleepy-headland-46231.herokuapp.com/">
+            <span class="caption">
+              <span class="caption-content">
+                <h2 class="text-light">Friend Finder</h2>
+                <p class="mb-0 text-light">This is an application that will match you with the closest person in our
+                  database.</p>
               </span>
-              <img class="img-fluid" src="img/tyler-nix-608482-unsplash.jpg" alt="Rick and Morty game">
-            </a>
+            </span>
+            <img class="img-fluid project" src="img/tyler-nix-608482-unsplash.jpg" alt="Rick and Morty game">
+          </a>
         </div>
         <div class="col-lg-6">
           <a class="portfolio-item" href="https://peepcrusher.github.io/train-schedule/">
             <span class="caption">
               <span class="caption-content">
                 <h2 class="text-light">Train Scheduler</h2>
-                <p class="mb-0 text-light">Utilizing firebase technology, this app lets you plug in information for a train, then will tell you realtime details about that train</p>
+                <p class="mb-0 text-light">Utilizing firebase technology, this app lets you plug in information for a
+                  train, then will tell you realtime details about that train</p>
               </span>
             </span>
-            <img class="img-fluid" src="img/bg-train.jpg" alt="Train Scheduler">
+            <img class="img-fluid project" src="img/bg-train.jpg" alt="Train Scheduler">
           </a>
         </div>
       </div>
@@ -192,7 +253,8 @@
     <div class="container">
       <ul class="list-inline mb-5">
         <li class="list-inline-item">
-          <a class="social-link rounded-circle text-white mr-3" href="https://www.linkedin.com/in/sam-thompson-5720b4177/">
+          <a class="social-link rounded-circle text-white mr-3"
+            href="https://www.linkedin.com/in/sam-thompson-5720b4177/">
             <i class="icon-social-linkedin"></i>
           </a>
         </li>
